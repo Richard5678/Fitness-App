@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/ic_fitness"
+        android:icon="@drawable/ic_fitness"
+        android:title="@string/fitness" />
+
+    <item
+        android:id="@+id/ic_nutrition"
+        android:icon="@drawable/ic_nutrition"
+        android:title="@string/nutrition" />
+    <item
+        android:id="@+id/ic_stats"
+        android:icon="@drawable/ic_trending"
+        android:title="@string/statistics"
+        />
+
+
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fitness">
+    
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBt3DeZI_HDCTpYlvzaq1e3pe_JabzbncQ" />
+
+        <activity android:name=".activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.MainActivity"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity android:name=".activities.RegisterActivity" />
+        <activity android:name=".fragments.SettingFragment" />
+        <activity android:name=".fragments.FitnessFragment" />
+        <activity android:name=".fragments.StatisticsFragment" />
+        <activity android:name=".fragments.LocalGymFragment" />
+        <activity android:name=".activities.SingleFitness" />
+        <activity android:name=".activities.SingleFood" />
+        <activity android:name=".activities.SingleNutrition" />
+        <activity android:name=".activities.GoogleMap" />
+        <activity android:name=".activities.SingleLocalFitness" />
+
+    </application>
+
+</manifest>

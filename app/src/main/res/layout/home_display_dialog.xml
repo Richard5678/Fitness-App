@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="30dp"
+    android:orientation="horizontal">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TableRow>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/nameDialog"
+                android:textSize="25sp"/>
+            <TextView
+                android:id="@+id/home_display_dialog_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="25sp"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <View
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="10dp"/>
+
+        <TableRow>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/energy_kcal"
+                android:textSize="25sp"/>
+            <TextView
+                android:id="@+id/home_display_dialog_calories"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:textAlignment="center"
+                android:textSize="25sp"/>
+        </TableRow>
+
+        <View
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="10dp"/>
+
+        <TableRow>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/protein_g"
+                android:textSize="25sp"/>
+            <TextView
+                android:id="@+id/home_display_dialog_protein"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:textAlignment="center"
+                android:textSize="25sp"/>
+        </TableRow>
+
+        <View
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="10dp"/>
+
+        <TableRow>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/fat_g"
+                android:textSize="25sp"/>
+            <TextView
+                android:id="@+id/home_display_dialog_fat"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:textAlignment="center"
+                android:textSize="25sp"/>
+        </TableRow>
+
+        <View
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="10dp"/>
+
+        <TableRow>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/carbs_g"
+                android:textSize="25sp"/>
+            <TextView
+                android:id="@+id/home_display_dialog_carbs"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:textAlignment="center"
+                android:textSize="25sp"/>
+        </TableRow>
+
+        <View
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="10dp" />
+
+        <TableRow>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/quantity_g"
+                android:textSize="25sp"/>
+            <TextView
+                android:id="@+id/home_display_dialog_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:text="@string/_100"/>
+        </TableRow>
+
+        <View
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="10dp"/>
+
+    </TableLayout>
+
+
+
+    <Button
+        android:id="@+id/home_display_dialog_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Add to local database"
+        android:layout_marginTop="370dp"
+        android:layout_gravity="center_horizontal"/>
+
+</androidx.cardview.widget.CardView>
